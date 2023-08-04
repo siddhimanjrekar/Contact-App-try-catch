@@ -445,7 +445,7 @@ console.log(user1.getAllContactInfo(0));
 
 //Update contact info
 console.log("Read contact info after updation:");
-console.log(user1.updateContactInfo(0,0,"email","siddhi@gmail.com"));
+console.log(user1.updateContactInfo(0,0,"typeOfContact","email"));
 
 //Delete contact info
 console.log(user1.deleteContactInfo(0, 0));
