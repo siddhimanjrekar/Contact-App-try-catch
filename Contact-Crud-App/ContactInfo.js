@@ -12,13 +12,13 @@ class ContactInfo {
 
     updateContactInfo(parameter, newValue){
         switch (parameter){
-            case "typeOfContact:":
+            case "typeOfContact":
                 if (typeof(newValue) != 'string'){
                     return "Invalid Type"
                 }
                 this.typeOfContact = newValue
                 return this
-            case "valueOfContact:":
+            case "valueOfContact":
                 if (typeof(newValue) != 'string'){
                     return "Invalid Type"
                 }
