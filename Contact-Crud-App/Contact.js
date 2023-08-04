@@ -40,7 +40,7 @@ class Contact {
                 this.fullName = newValue
                 return this
             case "country":
-                if (typeof(country) != 'string'){
+                if (typeof(newValue) != 'string'){
                     return "Invalid Country"
                 }
                 this.country = newValue
