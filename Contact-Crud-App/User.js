@@ -434,10 +434,10 @@ console.log(user1.deleteContact(1));
 console.log("Read contact after deletion:");
 console.log(user1.getAllContact());
 
-//Create contact info
-console.log("Create contact info:");
-console.log(user1.createContactInfo(0, "phone", 1234567890));
-console.log(user1.createContactInfo(2, "email", "swati@gmail.com"));
+//Update contact info
+console.log("Read contact info after updation:");
+console.log(user1.updateContactInfo(0,0,"typeOfContact","email"));
+console.log(user1.updateContactInfo(0,0,"valueOfContact","siddhi@gmail.com"));
 
 //Read contact info
 console.log("Read contact info before updation:");
